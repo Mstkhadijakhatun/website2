@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0
+}
+/* nabber */
+
+.nebberConteinar{
+    display: flex;
+    justify-content: end;
+    background-color: rgb(48, 110, 224);
+    width: 100%;
+    position: fixed;
+}
+
+ .manu{
+   display: flex;
+   padding: 10px;
+   position: relative;
+}
+
+.manu li{
+    list-style: none;
+    
+}
+
+.manu li a{
+    text-decoration: none;
+    padding: 5px;
+    
+}
+
+.manu li a:hover{
+    background-color: rgb(168, 151, 145);
+}
+
+.dropdown{
+    position: absolute;
+    display: none;
+    top: 100%;
+    background-color: cornflowerblue;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.dropdown li{
+    margin-top: 10px;
+}
+
+.manu li:hover .dropdown{
+    display: block;
+}
+
+
+.manu li a:active{
+  color: gold;
+    
+}
+
+.manu li a:nth-child(2n + 2){
+color: red;
+}
+
+.manu li a:focus{
+    background-color: darkorange;
+}
+
+
+/* nabber end */
+/* hero section */
+
+.heroConteiner{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./img/images.jpg) ;
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: wheat;
+    font-size: 20px;
+   
+}
+
+/* hero section end */
+/* card section */
+
+.cardConteinar{
+    display: flex;
+    margin: 20px;
+    padding: 10px,5px;
+    gap: 50px;
+   
+}
+
+.cardImg{
+    border-radius:10px;
+    height: 300px;
+    width: 100%;
+    
+}
+
+.cardChaild{
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+
+.cardChaild:hover{
+    transform: translateY(-10px);
+}
+
+/* card section end*/
+/* about us */
+
+.aboutImg{
+    width: 400px;
+    
+}
+
+.aboutConteinar{
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+   
+}
+
+.aboutText{
+  width: 400px;
+  margin: 20px;
+}
+
+.aboutPera{
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+}
+
+.aboutButton{
+    margin: 10px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* about us end */
+/* textmoniyal */
+
+.mainConteinar{
+    display: flex;
+    height: 400px;
+    width: 100%;
+    margin: 20px;
+    padding: 10px 5px;
+    gap: 20px;
+}
+
+.textImg{
+    width: 200px;
+    height: 200px;
+}
+
+.displya{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.textPera{
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+}
+
+.textConteinar{
+    background-color:white ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+
+.textConteinar:hover{
+    transform: translateY(-10px);
+}
+
+/* textmoniyal end*/
+/* footer */
+
+.footerConteinar{
+    display: flex;
+    column-gap: 30%;
+    background-color:rgb(63, 99, 165);
+}
+
+.footerChaild {
+   
+    list-style: none;
+   
+}
+
+.footerChaild li a{
+    text-decoration: none;
+    color: white;
+}
+
+.end{
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(40, 40, 190);
+    color: white;
+}
+
+.peraPera{
+    margin: 20px;
+    text-align: center;
+    text-align: justify;
+    
+}
+
+.peraPera::first-line{
+    color: red;
+}
+
+.peraPera::first-letter{
+    font-size: 30px;
+}
+
+.peraPera::selection{
+    background-color: rgb(211, 137, 174);
+    color: red;
+}
+
+.btn{
+    margin: 20px;
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color: red;
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: all 2s ease;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: green;
+    width: 150px;
+    height: 70px;
+}
+
+
+/* footer end */
